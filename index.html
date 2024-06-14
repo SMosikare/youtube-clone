@@ -22,13 +22,19 @@
           />
         </div>
 
-        <img class="youtube-logo" src="/icons/youtube-logo.svg" alt="" />
+        <img
+          class="youtube-logo"
+          src="/icons/youtube-logo.svg"
+          alt=""
+          title="YouTube Home"
+        />
       </div>
 
       <div class="middle-section">
         <input class="search-bar" type="search" placeholder="Search" />
         <button class="search-button">
           <img class="icon" src="/icons/search.svg" alt="" />
+          <div class="header-icon-tooltip tooltip">Search</div>
         </button>
         <button class="voice-search-button">
           <img
@@ -36,12 +42,14 @@
             src="/icons/voice-search-icon.svg"
             alt=""
           />
+          <div class="header-icon-tooltip tooltip">Search with your voice</div>
         </button>
       </div>
 
       <div class="right-section">
         <div class="header-icon-container">
           <img class="icon" src="/icons/upload.svg" alt="" />
+          <div class="header-icon-tooltip tooltip">Create</div>
         </div>
 
         <div class="header-icon-container">
@@ -51,6 +59,7 @@
             alt=""
           />
           <div class="notifications-count">2</div>
+          <div class="header-icon-tooltip tooltip">Notifications</div>
         </div>
 
         <div class="current-user">
@@ -64,22 +73,22 @@
     </header>
 
     <nav class="sidebar">
-      <div class="sidebar-link">
+      <div class="sidebar-link" title="Home">
         <img class="icon" src="/icons/home.svg" alt="" />
         <div>Home</div>
       </div>
 
-      <div class="sidebar-link">
+      <div class="sidebar-link" title="Shorts">
         <img class="icon" src="/icons/shorts.svg" alt="" />
         <div>Shorts</div>
       </div>
 
-      <div class="sidebar-link">
+      <div class="sidebar-link" title="Subscriptions">
         <img class="icon" src="/icons/subscriptions.svg" alt="" />
         <div>Subscriptions</div>
       </div>
 
-      <div class="sidebar-link">
+      <div class="sidebar-link" title="You">
         <img class="icon" src="/icons/you.svg" alt="" />
         <div>You</div>
       </div>
@@ -88,25 +97,26 @@
     <main class="main-content">
       <section class="scroll-container">
         <ul class="scroll-items">
-          <li class="active">All</li>
-          <li>Mixes</li>
-          <li>Music</li>
-          <li>News</li>
-          <li>Tourist destinations</li>
-          <li>Albums</li>
-          <li>Musical ensembles</li>
-          <li>HTML</li>
-          <li>Web Development</li>
-          <li>Conteporary R&B</li>
-          <li>Recently uploaded</li>
-          <li>Watched</li>
-          <li>New to you</li>
+          <li class="active" title="All">All</li>
+          <li title="Mixes">Mixes</li>
+          <li title="Music">Music</li>
+          <li title="News">News</li>
+          <li title="Tourist destinations">Tourist destinations</li>
+          <li title="Albums">Albums</li>
+          <li title="Musical ensembles">Musical ensembles</li>
+          <li title="HTML">HTML</li>
+          <li title="Web development">Web development</li>
+          <li title="Conteporary R&B">Conteporary R&B</li>
+          <li title="Recently uploaded">Recently uploaded</li>
+          <li title="Watched">Watched</li>
+          <li title="New to you">New to you</li>
         </ul>
 
         <div class="scroll-button-container">
           <button class="scroll-button">
             <img src="/icons/scroll.png" alt="" />
           </button>
+          <div class="scroll-button-tooltip tooltip">Next</div>
         </div>
       </section>
 
@@ -123,13 +133,20 @@
             </div>
 
             <div class="video-info">
-              <div class="video-title">
+              <div
+                class="video-title"
+                title="DAILY VLOG 7AM - 9PM | PRODUCTIVE DAY + TARGET RUNS + TIME WITH
+                GOD + SPEED CLEAN + COOKING #MOMVLOG"
+              >
                 DAILY VLOG 7AM - 9PM | PRODUCTIVE DAY + TARGET RUNS + TIME WITH
                 GOD + SPEED CLEAN + COOKING #MOMVLOG
               </div>
 
               <div class="channel-name-container">
-                <div class="channel-name">McKenna Walker</div>
+                <div class="channel-name" title="McKenna Walker">
+                  McKenna Walker
+                </div>
+                <div class="channel-name-tooltip tooltip">McKenna Walker</div>
               </div>
 
               <div class="video-stats">71k views • 9 days ago</div>
@@ -149,13 +166,18 @@
             </div>
 
             <div class="video-info">
-              <div class="video-title">
+              <div
+                class="video-title"
+                title=" uni diaries | studying at a treehouse cafe + morning yoga +
+                gloomy morning journaling and writing"
+              >
                 uni diaries | studying at a treehouse cafe + morning yoga +
                 gloomy morning journaling and writing
               </div>
 
               <div class="channel-name-container">
-                <p class="channel-name">babiki</p>
+                <p class="channel-name" title="babiki">babiki</p>
+                <div class="channel-name-tooltip tooltip">babiki</div>
               </div>
 
               <p class="video-stats">35k views • 1 month ago</p>
@@ -175,13 +197,18 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">
+              <p
+                class="video-title"
+                title="Navigating Opening up to friends | Dating with kids | Seated
+                with Lebo and Thato Rampedi"
+              >
                 Navigating Opening up to friends | Dating with kids | Seated
                 with Lebo and Thato Rampedi
               </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">Thato Rampedi</p>
+                <p class="channel-name" title="Thato Rampedi">Thato Rampedi</p>
+                <div class="channel-name-tooltip tooltip">Thato Rampedi</div>
               </div>
 
               <p class="video-stats">36k views • 3 weeks ago</p>
@@ -201,13 +228,18 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">
+              <p
+                class="video-title"
+                title="  my hair has grown! fear of friendship, dinner in pta, hauls &
+                all in between | with love, cee 💌"
+              >
                 my hair has grown! fear of friendship, dinner in pta, hauls &
                 all in between | with love, cee 💌
               </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">coffeenomilk</p>
+                <p class="channel-name" title="coffeenomilk">coffeenomilk</p>
+                <div class="channel-name-tooltip tooltip">coffeenomilk</div>
               </div>
 
               <p class="video-stats">44k views • 2 months ago</p>
@@ -227,13 +259,18 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">
+              <p
+                class="video-title"
+                title=" #weeklyvlog | Spent my Birthday Emakhaya 🎂🐄| Umemulo ka Amanda
+                📿"
+              >
                 #weeklyvlog | Spent my Birthday Emakhaya 🎂🐄| Umemulo ka Amanda
                 📿
               </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">Tshia Smith</p>
+                <p class="channel-name" title="Tshia Smith">Tshia Smith</p>
+                <div class="channel-name-tooltip tooltip">Tshia Smith</div>
               </div>
 
               <p class="video-stats">64K views • 1 year ago</p>
@@ -253,13 +290,18 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">
+              <p
+                class="video-title"
+                title="10 Years Ago Show chat replay FKJ | Ylang Ylang EP (Live
+                Session)"
+              >
                 10 Years Ago Show chat replay FKJ | Ylang Ylang EP (Live
                 Session)
               </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">Fkj</p>
+                <p class="channel-name" title="Fkj">Fkj</p>
+                <div class="channel-name-tooltip tooltip">Fkj</div>
               </div>
 
               <p class="video-stats">36M views • 3 years ago</p>
@@ -279,13 +321,18 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">
+              <p
+                class="video-title"
+                title="A week in my life| Braces update, teaching & food festivals!
+                #roadto30k #southafricanyoutuber"
+              >
                 A week in my life| Braces update, teaching & food festivals!
                 #roadto30k #southafricanyoutuber
               </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">Sbahle Mkhize</p>
+                <p class="channel-name" title="Sbahle Mkhize">Sbahle Mkhize</p>
+                <div class="channel-name-tooltip tooltip">Sbahle Mkhize</div>
               </div>
 
               <p class="video-stats">61K views • 3 days ago</p>
@@ -305,13 +352,18 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">
+              <p
+                class="video-title"
+                title=" a week in the life: Festivals + Events + Friendship Dates +
+                Learners Test + Maintenance & More…"
+              >
                 a week in the life: Festivals + Events + Friendship Dates +
                 Learners Test + Maintenance & More…
               </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">Chumiie M</p>
+                <p class="channel-name" title="Chumiie M">Chumiie M</p>
+                <div class="channel-name-tooltip tooltip">Chumiie M</div>
               </div>
 
               <p class="video-stats">102K views • 8 months ago</p>
@@ -331,10 +383,13 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">Nasty C - Phases ft. Rowlene</p>
+              <p class="video-title" title="Nasty C - Phases ft. Rowlene">
+                Nasty C - Phases ft. Rowlene
+              </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">Nasty_C</p>
+                <p class="channel-name" title="Nasty_C">Nasty_C</p>
+                <div class="channel-name-tooltip tooltip">Nasty_C</div>
               </div>
 
               <p class="video-stats">3.5M views • 7 years ago</p>
@@ -354,13 +409,20 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">
+              <p
+                class="video-title"
+                title="Fall Vlog | NEW Hair Color, Date Night With My Friend From High
+                School, Grocery Shopping and MORE"
+              >
                 Fall Vlog | NEW Hair Color, Date Night With My Friend From High
                 School, Grocery Shopping and MORE
               </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">De'arra Taylor</p>
+                <p class="channel-name" title="De'arra Taylor">
+                  De'arra Taylor
+                </p>
+                <div class="channel-name-tooltip tooltip">De'arra Taylor</div>
               </div>
 
               <p class="video-stats">373K views • 6 months ago</p>
@@ -380,12 +442,16 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">
+              <p
+                class="video-title"
+                title=" 6LACK - Pretty Little Fears (ft. J. Cole) [Official Music Video]"
+              >
                 6LACK - Pretty Little Fears (ft. J. Cole) [Official Music Video]
               </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">6lack</p>
+                <p class="channel-name" title="6lack">6lack</p>
+                <div class="channel-name-tooltip tooltip">6lack</div>
               </div>
 
               <p class="video-stats">162M views • 5 years ago</p>
@@ -405,15 +471,21 @@
             </div>
 
             <div class="video-info">
-              <p class="video-title">
+              <p
+                class="video-title"
+                title=" WE SPENT ALMOST 24 HOURS ON CAMPUS ☕︎ | University of Pretoria"
+              >
                 WE SPENT ALMOST 24 HOURS ON CAMPUS ☕︎ | University of Pretoria
               </p>
 
               <div class="channel-name-container">
-                <p class="channel-name">Thato Kalagobe</p>
+                <p class="channel-name" title="Thato Kalagobe">
+                  Thato Kalagobe
+                </p>
+                <div class="channel-name-tooltip tooltip">Thato Kalagobe</div>
               </div>
 
-              <p class="video-stats">4.8K views • 2 dayss ago</p>
+              <p class="video-stats">4.8K views • 2 days ago</p>
             </div>
           </div>
         </div>

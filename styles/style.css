@@ -145,24 +145,21 @@
   cursor: pointer;
 }
 
-.sidebar-link {
+.sidebar-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 8px;
+  font-size: 10px;
   height: 74px;
   padding: 0 32px;
   margin: 0 4px;
   border-radius: 10px;
 }
 
-.sidebar-link:hover {
+.sidebar-item:hover {
   background-color: var(--secondary-color);
-}
-
-.sidebar-link div {
-  font-size: 10px;
-  margin-top: 8px;
 }
 
 .main-content {
@@ -286,6 +283,7 @@ li.active:hover {
 .video-title {
   font-size: 14px;
   font-weight: 500;
+  color: rgb(15, 15, 15);
   line-height: 20px;
   margin: 0 18px 10px 0;
   overflow: hidden;
@@ -299,7 +297,7 @@ li.active:hover {
   display: inline-block;
 }
 
-.channel-name,
+.channel-name a,
 .video-stats {
   font-size: 14px;
   color: rgb(96, 96, 96);
@@ -347,9 +345,14 @@ li.active:hover {
     margin-left: 0;
   }
 
+  .hamburger-menu,
   .voice-search-button,
   .current-user {
     display: none;
+  }
+
+  .youtube-logo {
+    margin-left: 0;
   }
 
   .video-grid {
@@ -357,7 +360,7 @@ li.active:hover {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 750px) {
   .search-bar,
   .sidebar {
     display: none;
